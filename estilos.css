@@ -1,0 +1,269 @@
+body{
+  margin: 0px;
+}
+            
+.fundoLogoTop{
+  background-color: #004400;
+}
+
+fieldset{
+  height: 20px;
+  width: 270px;
+  background-color: #dddddd;
+}
+
+.selectOut{
+    font-family: verdana;
+    font-size: 8pt;
+    color: darkblue;
+    background-image: url('img/selectOut.gif');
+    font-weight: bold;
+}
+.selectOver{
+    font-family: verdana;
+    font-size: 8pt;
+    color: black;
+    background-image: url('img/selectOver.gif');
+    font-weight: bold;
+    cursor: pointer;
+}
+.selectIn{
+    font-family: verdana;
+    font-size: 8pt;
+    color: #ffffff;
+    background-image: url('img/select.gif');
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/**************
+*   exibe revista em edicoes.php
+**************/
+.revista{
+  position: relative;
+  top: 0;
+  left: 0;
+  visibility: visible;
+  border-top: 3px solid #eeeeee;
+  border-right: 3px solid #eeeeee;
+  border-bottom: 3px solid #eeeeee;
+}
+
+.top{
+  background-color: #EEEEEE;
+}
+
+.titulo{
+  font-family: verdana;
+  color: #000022;
+  font-size: 8pt;
+  font-weight: bold;
+}
+
+.tituloB{
+  font-family: verdana;
+  color: #000022;
+  font-size: 9pt;
+  font-weight: bold;
+}
+
+.text{
+  font-family: verdana;
+  color: #000022;
+  font-size: 8pt;
+  text-align: justify;
+  line-height: 200%;
+}
+
+.textAdmin{
+  font-family: verdana;
+  color: #000022;
+  font-size: 8pt;
+}
+
+.textAdminMensagem{
+  font-family: verdana;
+  color: #0000FF;
+  font-size: 8pt;
+}
+
+.rodape{
+  font-family: verdana;
+  color: #336699;
+  font-size: 7pt;
+}
+
+.menuSup{
+  font-family: verdana;
+  color: #336699;
+  font-size: 7pt;
+  font-weight: bold;
+}
+
+.textBusca{
+  font-family: verdana;
+  color: #000022;
+  font-size: 8pt;
+  line-height: 200%;
+}
+
+.textBuscaTop{
+  font-family: verdana;
+  color: #000022;
+  font-size: 8pt;
+  text-align: right;
+  line-height: 200%;
+  border-top: 3px solid #aaaaaa;
+  background-color: #cccccc;
+}
+
+.textMenuEdicoes{
+  font-family: verdana;
+  color: #000022;
+  font-size: 8pt;
+  line-height: 200%;
+  background-color: #eeeeee;
+  border-bottom: 3px solid #aaaaaa;
+  border-right: 3px solid #aaaaaa;
+  border-left: 3px solid #aaaaaa;
+}
+
+.carregando{
+  font-family: verdana;
+  color: #000022;
+  font-size: 8pt;
+  background-color: skyblue;
+  font-weight: bold;
+  width: 100px;
+  text-align: center;
+}
+
+.autor{
+  font-family: verdana;
+  color: #004477;
+  font-size: 7pt;
+  text-align: justify;
+  line-height: 200%;
+  font-weight: bold;
+}
+
+.tableConteudo{
+  background-color: #eeeeee;
+}
+
+.bordaRevista {
+  border-collapse: collapse;
+  border: 1px solid #CC3300;
+}
+
+.lineMenu{
+  background-image: url('img/lineUnderMenu.gif');
+  background-repeat: repeat-x;
+  height: 15px;
+}
+.next{
+  background-image: url('img/next.gif');
+  background-repeat: repeat-x;
+  height: 15px;
+}
+
+.divisoria{
+  background-image: url('img/divisoria.gif');
+  background-repeat: repeat-x;
+  height: 1px;
+}
+
+.linkForm{
+  font-family: verdana;
+  color: #0000FF;
+  font-size: 7pt;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:visited {
+  color: #0000FF;
+  text-decoration: none;
+  font-family:verdana;
+  font-size:8pt;
+}
+
+a:hover {
+  color: #0000FF;
+  text-decoration: underline;
+  font-family:verdana;
+  font-size:8pt;
+}
+
+a:active {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family:verdana;
+  font-size:8pt;
+  background-color: #0000FF;
+}
+
+a:link {
+  color: #0000FF;
+  text-decoration: none;
+  font-family:verdana;
+  font-size:8pt;
+}
+          
+.topLogin{
+  background-image: url('img/topLogin.gif');
+  background-repeat: repeat-x;
+  height: 10px;
+}
+.downLogin{
+  background-image: url('img/downLogin.gif');
+  background-repeat: repeat-x;
+  height: 10px;
+}
+.pointer{
+  cursor: pointer;
+}
+
+.botaoSair{
+  background-image: url('img/botaoOut.jpg');
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.bemVindo{
+  font-family: verdana;
+  color: #000022;
+  font-size: 10pt;
+  text-align: right;
+}
+
+.desenvolv{
+  font-family: verdana;
+  color: #0000FF;
+  font-size: 8pt;
+  text-align: right;
+  width: 190px;
+  cursor: pointer;
+}
+
+.msgErro{
+  font-family: verdana;
+  color: red;
+  font-size: 8pt;
+  font-weight: bold;
+}
+.msgErroForm{
+  font-family: verdana;
+  color: red;
+  font-size: 8pt;
+}
+.menuAdmin{
+  font-family: verdana;
+  color: #0000FF;
+  text-decoration: underline;
+  font-size: 8pt;
+  line-height: 250%;
+  cursor: pointer;
+}
